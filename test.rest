@@ -1,0 +1,9 @@
+### Signup Client User
+POST http://localhost:8000/client/signup
+Content-Type: application/json
+
+{
+  "email": "soni484384@gmail.com",
+  "password": "9250440904",
+  "user_type": "client"
+}
